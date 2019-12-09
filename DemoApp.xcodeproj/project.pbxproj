@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12628E7B239EAF2D003FB89E /* NJKWKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 12628E7A239EAF2D003FB89E /* NJKWKWebViewProgress.m */; };
 		260C2937183704EE0099D1B6 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 260C2936183704EE0099D1B6 /* NJKWebViewProgressView.m */; };
 		2677297317245E5C00D4E159 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 2677297217245E5C00D4E159 /* NJKWebViewProgress.m */; };
 		2677297817245E7900D4E159 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2677297517245E7900D4E159 /* AppDelegate.m */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12628E79239EAF2D003FB89E /* NJKWKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NJKWKWebViewProgress.h; path = NJKWebViewProgress/NJKWKWebViewProgress.h; sourceTree = SOURCE_ROOT; };
+		12628E7A239EAF2D003FB89E /* NJKWKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NJKWKWebViewProgress.m; path = NJKWebViewProgress/NJKWKWebViewProgress.m; sourceTree = SOURCE_ROOT; };
 		260C2935183704EE0099D1B6 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = NJKWebViewProgress/NJKWebViewProgressView.h; sourceTree = SOURCE_ROOT; };
 		260C2936183704EE0099D1B6 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = NJKWebViewProgress/NJKWebViewProgressView.m; sourceTree = SOURCE_ROOT; };
 		2677297117245E5C00D4E159 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgress.h; path = NJKWebViewProgress/NJKWebViewProgress.h; sourceTree = SOURCE_ROOT; };
@@ -62,6 +65,8 @@
 		260C2938183713360099D1B6 /* NJKWebViewProgress */ = {
 			isa = PBXGroup;
 			children = (
+				12628E79239EAF2D003FB89E /* NJKWKWebViewProgress.h */,
+				12628E7A239EAF2D003FB89E /* NJKWKWebViewProgress.m */,
 				2677297117245E5C00D4E159 /* NJKWebViewProgress.h */,
 				2677297217245E5C00D4E159 /* NJKWebViewProgress.m */,
 				260C2935183704EE0099D1B6 /* NJKWebViewProgressView.h */,
@@ -169,6 +174,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 26E5743D172235B500203262;
@@ -203,6 +209,7 @@
 			files = (
 				2677297317245E5C00D4E159 /* NJKWebViewProgress.m in Sources */,
 				260C2937183704EE0099D1B6 /* NJKWebViewProgressView.m in Sources */,
+				12628E7B239EAF2D003FB89E /* NJKWKWebViewProgress.m in Sources */,
 				2677297817245E7900D4E159 /* AppDelegate.m in Sources */,
 				2677297917245E7900D4E159 /* ViewController.m in Sources */,
 				2677298117245E8E00D4E159 /* main.m in Sources */,

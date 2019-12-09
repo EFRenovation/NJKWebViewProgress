@@ -8,8 +8,11 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ninjinkun/NJKWebViewProgress.git", :tag => "v#{s.version}" }
   s.platform     = :ios, '4.3'
   s.requires_arc = true
-  s.subspec 'Core' do |ss|
+  s.subspec 'UIWebView' do |ss|
     ss.source_files = 'NJKWebViewProgress/NJKWebViewProgress.{h,m}'
+  end
+  s.subspec 'WKWebView' do |ss|
+    ss.source_files = 'NJKWebViewProgress/NJKWKWebViewProgress.{h,m}'
   end
   s.subspec 'ProgressView' do |ss|
     ss.source_files = 'NJKWebViewProgress/NJKWebViewProgressView.{h,m}'
